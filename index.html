@@ -1,0 +1,149 @@
+﻿<!doctype html>
+<html>
+    <head>
+	<meta charset="utf-8">
+	<title>homework2</title>
+	<style>
+	    *{ margin: 0; padding: 0; font-family: "Microsoft yahei";}
+	    ul{ list-style: none;}
+     	    a{ text-decoration: none;}
+	    .taobao{ line-height: 40px; text-indent: 10px; width: 200px; margin-left: 50px;}
+	    h3{ font-size: 100%; color: #fff;}
+	    .wrap{ width: 190px; background: #FF6537; color: #fff; font-weight: 700; margin: 0  0 0 60px; float: left;}
+	    .wrap .title{ height: 33px; line-height: 33px; text-indent: 10px;}
+	    .wrap ul li{ font-size: 13px; padding-left: 30px; height: 30px; line-height: 30px;}
+	    .wrap ul li:hover{ background: #F94A14;}
+	    .wrap ul li a{ color: #fff;}
+	    .wrap ul li a:hover{ text-decoration: underline;}
+
+	    .yhd_main{ margin-left: 300px; float: left;}
+	    .yhd_main ul li{ font-size: 14px; font-weight: 700; height: 30px; line-height: 30px; float: left; padding-right: 20px;}
+	    .yhd_main ul li a{ color: #333;}
+	    .yhd_main ul li a.on{ color: #FF3C91;}
+	    .yhd_main ul li a:hover{ color: #FF3C91;}
+
+	    .jd_main{  float: left; margin-left: 40px; margin-top: 30px;}
+	    .jd{ width: 120px; height: 40px; line-height: 40px;}
+
+	    .wph_main{ width: 300px; height: 450px; border: 1px solid #E10A7E; float: left; margin: 80px 0 0 60px;}
+	    .wph_main dl{ padding: 10px 0 0 20px; font-size: 14px; overflow: hidden;}
+	    .wph_main dl dt a{ color: #333;}
+	    .wph_main dl dt a:hover{ color: #E10A7E;}
+	    .wph_main dl dt{ font-weight: 700; color: #333;}
+	    .wph_main dl dd a{ padding-right: 20px; line-height: 25px; color: #666; float: left;}
+	    .wph_main dl dd a:hover{ color: #E10A7E;}
+		
+	    .iframe{ width: 75px; height: 70px; float: left; margin-top: 80px; margin-left: 220px; margin-right: -60px;}
+
+	    .frame_main{ width: 685px; border: 1px solid red; float: left; margin-left: 60px; margin-top: 80px;}
+	</style>
+    </head>
+    <body>
+	<p class="taobao">淘宝列表（ul li）</p>
+	<div class="wrap">
+	    <div class="title"><a href="#"><h3>主题市场</h3></a></div>
+	    <ul>
+		<li><a href="#">女装</a> / <a href="#">男装</a> / <a href="#">内衣</a></li>
+		<li><a href="#">鞋靴</a> / <a href="#">箱包</a> / <a href="#">配件</a></li>
+		<li><a href="#">童装玩具</a> / <a href="#">孕产</a> / <a href="#">用品</a></li>
+		<li><a href="#">家电</a> / <a href="#">数码</a> / <a href="#">手机</a></li>
+		<li><a href="#">美妆</a> / <a href="#">洗护</a> / <a href="#">保健品</a></li>
+		<li><a href="#">珠宝</a> / <a href="#">眼镜</a> / <a href="#">手表</a></li>
+		<li><a href="#">运动</a> / <a href="#">户外</a> / <a href="#">乐器</a></li>
+		<li><a href="#">游戏</a> / <a href="#">动漫</a> / <a href="#">影视</a></li>
+		<li><a href="#">美食</a> / <a href="#">生鲜</a> / <a href="#">零食</a></li>
+		<li><a href="#">鲜花</a> / <a href="#">宠物</a> / <a href="#">农资</a></li>
+		<li><a href="#">房产</a> / <a href="#">装修</a> / <a href="#">建材</a></li>
+		<li><a href="#">家具</a> / <a href="#">家饰</a> / <a href="#">家纺</a></li>
+		<li><a href="#">汽车</a> / <a href="#">二手车</a> / <a href="#">用品</a></li>
+	    </ul>
+	</div>	
+
+	<div class="yhd_main">
+	    <p class="yhd">1号店列表（ul li）</p>
+	    <ul>
+		<li><a class="on" href="">首页</a></li>
+		<li><a class="on" href="">自营超市</a></li>
+		<li><a class="on" href="">1号团</a></li>
+		<li><a href="">1号商城</a></li>
+		<li><a href="">闪购</a></li>
+		<li><a href="">活色生鲜</a></li>
+		<li><a href="">医药</a></li>
+		<li><a href="">1号海购</a></li>
+		<li><a href="">智能惠</a></li>
+	    </ul>
+	</div>
+
+	<div class="jd_main">
+	    <p class="jd">京东（table）</p>
+	    <table border="1px" bordercolor="#ededed" cellspacing="0" cellpadding="0" style="border-collapse:collapse">
+		<tr>
+		    <td colspan="2"><img src="images/1.jpg"></td>
+		    <td><img src="images/2.jpg"></td>
+		    <td colspan="2"><img src="images/3.jpg"></td>
+		</tr>
+		<tr>
+		    <td><img src="images/1.1.jpg"></td>
+	 	    <td><img src="images/1.2.jpg"></td>
+		    <td><img src="images/2.1.jpg"></td>
+		    <td><img src="images/3.1.jpg"></td>
+		    <td><img src="images/3.2.jpg"></td>
+		</tr>
+	    </table>
+	</div>
+        
+	<div class="wph_main">
+	    <p class="wph">唯品会（dl dt dd）</p>
+	    <dl>
+		<dt><a href="#">男上装</a></dt>
+		<dd><a href="#">T恤</a></dd>
+		<dd><a href="#">Polo衫</a></dd>
+		<dd><a href="#">衬衫</a></dd>
+		<dd><a href="#">外套</a></dd>
+		<dd><a href="#">卫衣</a></dd>
+		<dd><a href="#">风衣</a></dd>
+		<dd><a href="#">针织衫</a></dd>
+		<dd><a href="#">毛衣</a></dd>
+		<dd><a href="#">背心/马夹</a></dd>
+	    </dl>
+	    <dl>
+		<dt><a href="#">男下装</a></dt>
+		<dd><a href="#">牛仔裤</a></dd>
+		<dd><a href="#">西裤</a></dd>
+		<dd><a href="#">休闲裤</a></dd>
+		<dd><a href="#">连体裤</a></dd>
+	    </dl>
+	    <dl>
+		<dt><a href="#">西服/套装</a></dt>
+		<dd><a href="#">西服</a></dd>
+		<dd><a href="#">套装</a></dd>
+	    </dl>
+	    <dl>
+		<dt><a href="#">内衣/居家服</a></dt>
+		<dd><a href="#">背心</a></dd>
+		<dd><a href="#">保暖内衣</a></dd>
+		<dd><a href="#">内裤</a></dd>
+		<dd><a href="#">睡衣</a></dd>
+	    </dl>
+	     <dl>
+		<dt><a href="#">服饰配件</a></dt>
+		<dd><a href="#">围巾/披肩</a></dd>
+		<dd><a href="#">腰带</a></dd>
+		<dd><a href="#">袜</a></dd>
+		<dd><a href="#">领带</a></dd>
+	        <dd><a href="#">袖扣</a></dd>
+	    </dl>
+	</div>
+
+	<ul class="iframe">
+	    <li><a href="http://www.baidu.com" target="win">百度</a></li>
+	    <li><a href="http://www.jd.com" target="win">京东</a></li>
+	    <li><a href="http://www.tmall.com" target="win">天猫</a></li>
+	</ul>
+	
+	<div class="frame_main">
+	    <iframe name="win" width="685" height="400"></iframe>
+	</div>
+
+    </body>
+</html>
